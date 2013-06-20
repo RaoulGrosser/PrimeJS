@@ -1,4 +1,4 @@
-#!/usr/bin/env prime
+#!/usr/bin/env node
 (function (sys) {
         var i = 2,
             isPrime = function () {
