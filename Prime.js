@@ -1,4 +1,9 @@
-#!/usr/bin/env node
+//
+// Created by Raoul Grosser on Thursday, June 6, 2013
+// RaoulCoder@outlook.com
+//
+// Prints prime numbers up to 1000.
+//
 (function (sys) {
         var i = 2,
             isPrime = function () {
@@ -14,7 +19,7 @@
             },
             result = [];
  
-        while ( i < 10000 ) {
+        while ( i < 1000 ) {
                 if ( isPrime() ) {
                         result.push(i);
                 }
